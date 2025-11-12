@@ -1,0 +1,198 @@
+/* =========== Counter =========== */
+.counter-container {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.counter-display {
+  font-size: 10em;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.counter-btn {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background: #5093c0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-btn:hover {
+  background: #386786;
+}
+
+/* =========== Colour Picker =========== */
+.colour-container {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.colour-container h1 {
+  font-size: 3rem;
+}
+
+.colour-container p {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.colour-picker {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #000;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.colour-picker p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* =========== To-Do List =========== */
+.to-do {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #89b67f;
+}
+
+.to-do-header {
+  padding: 20px;
+  color: #fff;
+  display: flex;
+}
+
+.to-do-header img {
+  width: 70px;
+  margin-right: 20px;
+}
+
+.to-do-heading p {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.to-do-heading h2 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.to-do-body {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 500px;
+}
+
+.to-do-body-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.to-do button {
+  padding: 5px 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.5 ease;
+  margin-left: 10px;
+}
+
+.to-do-add {
+  background-color: #89b67f;
+}
+.to-do-add:hover {
+  background-color: #6f9467;
+}
+
+.to-do-remove {
+  background-color: #f4782a;
+}
+.to-do-remove:hover {
+  background-color: #c96121;
+}
+
+.to-do-move {
+  background-color: #cbcec3;
+}
+.to-do-move:hover {
+  background-color: #959790;
+}
+
+.to-do input[type="text"] {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+  padding: 15px;
+  background-color: #cbcec379;
+  border: none;
+  border-radius: 20px;
+}
+
+.to-do ol {
+  padding: 0;
+  list-style: none;
+}
+
+.to-do li {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 15px;
+  background-color: #cbcec331;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.to-do-text {
+  flex: 1
+}
+
+/* =========== Digital Clock =========== */
+.clock-bg {
+  background-image: url(assets/larvitar-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock-container {
+  backdrop-filter: blur(50px);
+  padding: 10px 20px;
+}
+
+.clock {
+  color: #fff;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px #959e73;
+}
